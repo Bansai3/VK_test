@@ -1,0 +1,30 @@
+.cat_image {
+    width: 280px;
+    height: 280px;
+}
+
+.cat_image_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 15px;
+    flex-direction: column;
+}
+
+.All_cats_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.heart {
+    font-size: 30px;
+    color: red;
+}

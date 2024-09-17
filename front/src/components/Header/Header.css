@@ -1,0 +1,17 @@
+header {
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 12%;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button_container {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    margin-left: 30px;
+}

@@ -1,0 +1,24 @@
+.header_button, .header_button_active  {
+    border-radius: 3px;
+    border: none;
+    color: white;
+    height: 100%;
+    font-size: 17px;
+}
+
+.header_button:hover, .header_button:active, .header_button:focus {
+    background-color: aqua;
+}
+
+.header_button_active:hover, .header_button_active:active, .header_button_active:focus {
+    background-color: aqua;
+}
+
+.header_button_active {
+    background-color: dodgerblue;
+}
+
+.header_button {
+    background-color: cornflowerblue;
+}
+
